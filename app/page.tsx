@@ -5,7 +5,7 @@ import type React from "react"
 import { Inter } from "next/font/google"
 import Image from "next/image"
 import { motion, useInView, useAnimation, AnimatePresence } from "framer-motion"
-import { Brain, ChevronRight, Menu, X, MessageCircle, Send } from "lucide-react"
+import { Brain, ChevronRight, Menu, X, MessageCircle, Send, ShoppingCart } from "lucide-react"
 import Link from "next/link"
 import { useState, useRef, useEffect } from "react"
 import { Loader } from "@/components/loader"
@@ -530,8 +530,9 @@ export default function Home() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  The ultimate AI-powered platform for market analysis and trading automation on four.meme. Get
-                  real-time predictions, automated trading, and instant notifications through our Telegram bot.
+                  The ultimate AI-powered platform for market analysis and trading automation on
+                  https://four.meme/token/0xc5c11b2b03714c3b1dea8fc6c62a8163929ab264. Get real-time predictions,
+                  automated trading, and instant notifications through our Telegram bot.
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -541,7 +542,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold mb-2 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
                     Contract Address (CA)
                   </h3>
-                  <CopyableAddress address="TBA" />
+                  <CopyableAddress address="0xc5c11b2b03714c3b1dea8fc6c62a8163929ab264" />
                 </motion.div>
                 <motion.div
                   className="flex flex-wrap gap-4"
@@ -550,15 +551,15 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: 0.6 }}
                 >
                   <motion.a
-                    href="https://t.me/brain_bnb"
+                    href="https://four.meme/token/0xc5c11b2b03714c3b1dea8fc6c62a8163929ab264"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full hover:opacity-90 transition-opacity flex items-center gap-2"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    <MessageCircle className="w-5 h-5" />
-                    Connect Bot
+                    <ShoppingCart className="w-5 h-5" />
+                    Buy on Four.meme
                   </motion.a>
                   <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                     <Link
