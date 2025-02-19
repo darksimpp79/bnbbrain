@@ -15,16 +15,19 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "v0.blob.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
-  // Add error handling for stream responses
-  onError: (error, req, res) => {
-    console.error("Server error:", error)
-    res.statusCode = 500
-    res.end("Internal Server Error")
+  // Dodaj tę opcję, aby upewnić się, że CSS jest prawidłowo ładowany
+  poweredByHeader: false,
+  experimental: {
+    optimizeCss: true, // Włącz optymalizację CSS
   },
-  // Ensure consistent response IDs
-  generateEtags: false,
 }
 
 module.exports = nextConfig
