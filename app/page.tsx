@@ -530,9 +530,7 @@ export default function Home() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  The ultimate AI-powered platform for market analysis and trading automation on
-                  https://four.meme/token/0xc5c11b2b03714c3b1dea8fc6c62a8163929ab264. Get real-time predictions,
-                  automated trading, and instant notifications through our Telegram bot.
+                  The ultimate AI-powered platform for market analysis and trading automation on four.meme. Get real-time predictions, automated trading, and instant notifications through our Telegram bot.
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
