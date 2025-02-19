@@ -75,7 +75,7 @@ const marketCapTiers = [
 
 const ultimateTier = {
   cap: "100B",
-  features: ["MIGRATING TO ETHEREUM", "VR GAME", "Minecraft RPG server with NFTs and player-regulated market"],
+  features: ["VR GAME", "Minecraft RPG server with NFTs and player-regulated market"],
 }
 
 function ScrollingText() {
@@ -227,7 +227,7 @@ function MainFeatures({ features }: { features: string[] }) {
       >
         Ultimate Goals
       </motion.h3>
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 gap-8 justify-center mx-auto max-w-4xl">
         {features.map((feature, index) => (
           <motion.div
             key={index}
@@ -323,7 +323,7 @@ function Header() {
         >
           <div className="w-12 h-12 relative overflow-hidden rounded-lg bg-black">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2025-02-19_19-12-29.png-EbMzRjEzAqCBydT6mLAc2YH377a2pr.jpeg"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2025-02-19_19-12-29-removebg-preview-GSqC1eR3pnZe7Cmp2i64935utn0lyE.png"
               alt="BNB BRAIN Logo"
               width={48}
               height={48}
@@ -530,8 +530,8 @@ export default function Home() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  The ultimate AI-powered platform for market analysis and trading automation. Get real-time
-                  predictions, automated trading, and instant notifications through our Telegram bot.
+                  The ultimate AI-powered platform for market analysis and trading automation on four.meme. Get
+                  real-time predictions, automated trading, and instant notifications through our Telegram bot.
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -578,8 +578,8 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: 0.6 }}
               >
                 <Image
-                  src="https://sjc.microlink.io/mJ__W7CGRDjHA3uxpraNtyhh_YSyMjtAmuTUWiSnq8aKYvWvj58kWb4N2aswUhGbYO3z1V3YfvkE420Vjldi7Q.jpeg"
-                  alt="Platform Preview"
+                  src="https://sjc.microlink.io/JdfoH4a68TUwOT-JCMwl3DHUStE8oK-uZiRq8fzbgNiUs4Waixo5mKXYottyMd2EP671PCYayzmjHW9uz-TRrQ.jpeg"
+                  alt="Four.meme Platform Preview"
                   width={600}
                   height={400}
                   className="rounded-2xl border border-pink-500/20"
