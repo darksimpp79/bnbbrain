@@ -541,7 +541,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold mb-2 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
                     Contract Address (CA)
                   </h3>
-                  <CopyableAddress address="0x1234567890123456789012345678901234567890" />
+                  <CopyableAddress address="TBA" />
                 </motion.div>
                 <motion.div
                   className="flex flex-wrap gap-4"
